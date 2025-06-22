@@ -104,6 +104,10 @@ io.on("connection", (socket) => {
     });
 });
 
+app.get('/', (req, res) => {
+    res.send('Hello from StockMarket Tracker!');
+});
+
 app.get("/api/stocks/recent", async (req, res) => {
     try {
         const stocks = await Stock.find().sort({ lastTrackedTime: -1 }).limit(20);
