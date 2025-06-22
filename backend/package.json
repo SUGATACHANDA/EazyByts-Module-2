@@ -18,5 +18,8 @@
     "mongoose": "^8.16.0",
     "socket.io": "^4.8.1",
     "yahoo-finance2": "^2.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
