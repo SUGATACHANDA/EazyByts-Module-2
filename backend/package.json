@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api/index"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,5 @@
     "nodemon": "^3.1.10",
     "socket.io": "^4.8.1",
     "yahoo-finance2": "^2.13.3"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.3"
   }
 }
